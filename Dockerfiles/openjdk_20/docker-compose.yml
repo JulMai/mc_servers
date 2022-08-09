@@ -7,4 +7,5 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - D:/Dev/minecraft-docker/Server:/server
+      - /docker/mc/vanilla_1.19/server/:/server
+    tty: true
